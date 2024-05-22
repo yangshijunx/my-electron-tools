@@ -1,0 +1,19 @@
+.app-layout {
+  height: 100vh;
+  .app-header {
+    height: 32px;
+    .home-logo {
+      width: 32px;
+      height: 32px;
+      margin-left: 6px;
+      margin-right: 4px;
+    }
+  }
+  .app-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .app-footer {
+    padding: 5px;
+  }
+}
